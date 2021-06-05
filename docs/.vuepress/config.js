@@ -3,24 +3,24 @@ module.exports = {
     description: 'Speech translation benchmarks, resources and advanced progress',
     themeConfig: {
         lastUpdated: 'Last Updated',
-        repo: 'zhaocq-nlp/zhaocq-nlp.github.io',
+        repo: 'st-benchmark/st-benchmark.github.io',
         docsDir: 'docs',
         // editLinks: true,
         // editLinkText: 'Edit this page on GitHub',
         nav: [
-            {text: 'Overview', link: '/docs/overview/'},
-            {text: 'Benchmarks', link: '/docs/benchmarks/'},
-            {text: 'Resources', link: '/docs/resources/'},
+            {text: 'Overview', link: '/overview/'},
+            {text: 'Benchmarks', link: '/benchmarks/'},
+            {text: 'Resources', link: '/resources/'},
         ],
         sidebarDepth: 3,
         sidebar: {
             // '/docs/':[
             //     ''
             // ],
-            '/docs/benchmarks/':[
+            '/benchmarks/':[
                 ''
             ],
-            '/docs/resources/': [
+            '/resources/': [
                 '',
                 // 'front-matter',
                 // 'palette'

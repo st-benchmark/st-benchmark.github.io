@@ -1,10 +1,10 @@
 {
   "name": "st-benchmark",
   "version": "1.0.0",
-  "author": "reco_luan",
+  "author": "Chengqi Zhao",
   "scripts": {
-    "dev": "vuepress dev .",
-    "build": "vuepress build ."
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "devDependencies": {
     "@vuepress/theme-blog": "^2.3.3",

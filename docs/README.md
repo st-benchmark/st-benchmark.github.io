@@ -8,7 +8,7 @@ bgImageStyle: {
 }
 isShowTitleInHome: false
 actionText: Overview
-actionLink: /docs/
+actionLink: /overview/
 
 features:
 - title: Benchmarks
