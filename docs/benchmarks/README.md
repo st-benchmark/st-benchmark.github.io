@@ -20,28 +20,21 @@ table th:first-of-type {
     width: 8px;
 }
 
+table td:nth-child(1) {
+    white-space: nowrap; 
+}
 </style>
-<font size=3>
 
+<font size=3>
 
 |Model|external Audio|external ASR|external MT|case-sensitive tok BLEU|case-sensitive detok BLEU|
 |---|:---:|:---:|:---:|:---:|:---:|
 |NeurST transf-s ([Zhao et al., 2020](https://arxiv.org/abs/2012.10018))|×|×|×|17.8|16.3|
 |ST+AFS(t,f) transf-m ([Zhang et al., 2020](https://www.aclweb.org/anthology/2020.findings-emnlp.230/))|×|×|×|18.6|17.2|
 |Chimera (w2v2 transf-m) ([Han et al., 2021](https://arxiv.org/abs/2105.03095))|√|×|√|-|19.4|
-
 </font>
 
 
-<style>
-table th,td {
-    border: 0px;
-}
-table th:first-of-type {
-    width: 8px;
-}
-
-</style>
 <font size=3>
 
 ---
@@ -67,17 +60,7 @@ table th:first-of-type {
 
 We report **case-sensitive detokenized BLEU** via sacrebleu toolkit.
 
-<style>
-table th,td {
-    border: 0px;
-}
-table th:first-of-type {
-    width: 8cm;
-}
-
-</style>
 <font size=3>
-
 
 |Model|ext audio|ext ASR|ext MT|DE|ES|FR|IT|NL|PT|RO|RU|
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -86,8 +69,10 @@ table th:first-of-type {
 |fairseq s2t transf-s ([Wang et al., 2020](https://www.aclweb.org/anthology/2020.aacl-demo.6/))|×|×|×|22.7|27.2|32.9|22.7|27.3|28.1|21.9|15.3|
 |ST+AFS(t,f) transf-m ([Zhang et al., 2020](https://www.aclweb.org/anthology/2020.findings-emnlp.230/))|×|×|×|22.4|26.9|31.6|23.0|24.9|26.3|21.0|14.7|
 |Chimera (w2v2 transf-m) ([Han et al., 2021](https://arxiv.org/abs/2105.03095))|√|×|√|27.1|30.6|35.6|25.0|29.2|30.2|24.0|17.4|
-|XSTNet-base (w2v2 transf-m mtl) ([Ye et al., 2021](https://arxiv.org/abs/2104.10380))|√|×|×|25.5|36.0|-|-|-|-|-|16.9|
+|XSTNet (w2v2 transf-m mtl) ([Ye et al., 2021](https://arxiv.org/abs/2104.10380))|√|×|×|25.5|36.0|-|-|-|-|-|16.9|
 |XSTNet (w2v2 transf-m mtl) ([Ye et al., 2021](https://arxiv.org/abs/2104.10380))|√|×|√|27.1|38.0|-|-|-|-|-|18.4|
+|SATE transf-s ([Xu et al., 2021](https://arxiv.org/abs/2105.05752))|×|×|×|25.2|-|-|-|-|-|-|-|
+|SATE conformer-m ([Xu et al., 2021](https://arxiv.org/abs/2105.05752))|×|√|√|28.1|-|-|-|-|-|-|-|
 ---
 
 </font>

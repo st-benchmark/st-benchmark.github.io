@@ -22,8 +22,8 @@ module.exports = {
             ],
             '/resources/': [
                 '',
-                // 'front-matter',
-                // 'palette'
+                // 'Toolkits',
+                // 'Datasets'
             ],
         },
         smoothScroll: true,
