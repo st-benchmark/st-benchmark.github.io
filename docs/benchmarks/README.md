@@ -27,17 +27,19 @@ table td:nth-child(1) {
 
 <font size=3>
 
+
 |Model|external Audio|external ASR|external MT|case-sensitive tok BLEU|case-sensitive detok BLEU|
 |---|:---:|:---:|:---:|:---:|:---:|
 |NeurST transf-s ([Zhao et al., 2020](https://arxiv.org/abs/2012.10018))|×|×|×|17.8|16.3|
 |ST+AFS(t,f) transf-m ([Zhang et al., 2020](https://www.aclweb.org/anthology/2020.findings-emnlp.230/))|×|×|×|18.6|17.2|
 |Chimera (w2v2 transf-m) ([Han et al., 2021](https://arxiv.org/abs/2105.03095))|√|×|√|-|19.4|
+---
+<center><font color=gray>scroll to see more results</font></center>
 </font>
 
 
 <font size=3>
 
----
 
 |Model|external ASR|external MT|case-insensitive tok BLEU|case-insensitive detok BLEU|
 |---|:---:|:---:|:---:|:---:|
@@ -49,8 +51,11 @@ table td:nth-child(1) {
 |COSTT ([Dong et al., 2021b](https://ojs.aaai.org/index.php/AAAI/article/view/17508))|×|×|17.8|-|
 |transf-m + curriculum pre-train ([Wang et al., 2020](https://www.aclweb.org/anthology/2020.acl-main.344.pdf)) |√|×|18.0|-|
 |LUT (transf-m + bert KD + mtl) ([Dong et al., 2021a](https://ojs.aaai.org/index.php/AAAI/article/view/17509)) |√|×|18.3|-|
-|COSTT ([Dong et al., 2021b](https://ojs.aaai.org/index.php/AAAI/article/view/17508))|√|√|18.2|-|
+|COSTT ([Dong et al., 2021b](https://ojs.aaai.org/index.php/AAAI/article/view/17508))|×|√|18.2|-|
+|SATE transf-s ([Xu et al., 2021](https://arxiv.org/abs/2105.05752))|×|×|-|18.3|
+|SATE conformer-m ([Xu et al., 2021](https://arxiv.org/abs/2105.05752))|√|√|-|20.8|
 ---
+<center><font color=gray>scroll to see more results</font></center>
 
 </font>
 
@@ -74,5 +79,6 @@ We report **case-sensitive detokenized BLEU** via sacrebleu toolkit.
 |SATE transf-s ([Xu et al., 2021](https://arxiv.org/abs/2105.05752))|×|×|×|25.2|-|-|-|-|-|-|-|
 |SATE conformer-m ([Xu et al., 2021](https://arxiv.org/abs/2105.05752))|×|√|√|28.1|-|-|-|-|-|-|-|
 ---
+<center><font color=gray>scroll to see more results</font></center>
 
 </font>
