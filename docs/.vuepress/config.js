@@ -22,7 +22,7 @@ module.exports = {
             ],
             '/resources/': [
                 '',
-                // 'Toolkits',
+                'GigaST',
                 // 'Datasets'
             ],
         },

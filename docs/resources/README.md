@@ -30,6 +30,7 @@ table td:nth-child(1) {
 
 | Dataset | Languages | Duration | Domain |
 |---|:---:|:---:|---|
+| [GigaST](https://github.com/bytedance/neurst/tree/master/datasets/GigaST)   | EN→ZH, EN→DE | 10,000hrs | diverse|
 | [LIBRI-TRANS](https://github.com/alicank/Translation-Augmented-LibriSpeech-Corpus) ([Kocabiyikoglu et al., 2018](https://arxiv.org/abs/1802.03142))   | EN→FR | 236hrs | read audiobooks|
 | [MuST-C](https://ict.fbk.eu/must-c/) ([Cattoni et al., 2021](https://www.sciencedirect.com/science/article/pii/S0885230820300887)) | EN→ 14 lang.| 237-504hrs | TED talks |
 | [CoVoST](https://github.com/facebookresearch/covost)([Wang et al., 2020](https://arxiv.org/abs/2002.01320)) | EN→15 lang. ,<br/>21 lang. →EN |929hrs, 30-311hrs | read, Common Voice   |
@@ -55,11 +56,13 @@ table td:nth-child(1) {
 
 | Dataset | Languages | Duration | Domain    |
 |---|:---:|:---:|---|
-| [LibriSpeech](https://www.openslr.org/12) ([Panayotov et al., 2015](http://www.danielpovey.com/files/2015_icassp_librispeech.pdf)) | EN | 1000hrs | read audiobooks |
+| [GigaSpeech](https://github.com/SpeechColab/GigaSpeech/) ([Cheng et al., 2021](https://arxiv.org/abs/2106.06909))   | EN | 10,000hrs | diverse|
+| [Wenet](https://wenet.org.cn/WenetSpeech/) ([Zhang et al., 2021](https://arxiv.org/abs/2110.03370))   | ZH | 10,000hrs | diverse|
+| [LibriSpeech](https://www.openslr.org/12) ([Panayotov et al., 2015](http://www.danielpovey.com/files/2015_icassp_librispeech.pdf)) | EN | 1,000hrs | read audiobooks |
 | [TED-LIUM 3](https://www.openslr.org/51/) ([Hernandez et al., 2018](https://arxiv.org/abs/1805.04699)) |EN|452hrs| TED talks|
 | [Common Voice en_2181h_2020-12-11](https://commonvoice.mozilla.org/en/datasets) ([Ardila et al., 2019](https://arxiv.org/abs/1912.06670))|EN|1,686hrs validated| |
 | [VoxForge EN](http://www.voxforge.org/home/Downloads) | EN | 120hrs| |
-| [AISHELL-2](http://www.aishelltech.com/aishell_2) ([Du et al., 2018](https://arxiv.org/abs/1808.10583))|ZH|1000hrs|smart house, industry, ...| 
+| [AISHELL-2](http://www.aishelltech.com/aishell_2) ([Du et al., 2018](https://arxiv.org/abs/1808.10583))|ZH|1,000hrs|smart house, industry, ...| 
 |[BAAI Magic Chinese Data](https://www.biendata.xyz/competition/magicdata/data/) | ZH | 100hrs | real-life dialogues |
 
 </font>
